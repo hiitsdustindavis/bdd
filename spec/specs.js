@@ -3,11 +3,11 @@ describe('leapYear', function() {
     expect(leapYear(1993)).to.equal(false);
   });
 
-  it("is true for years divisble by 4", function() {
+  it("is true for years divisible by 4", function() {
     expect(leapYear(2004)).to.equal(true);
   });
 
-  it("is false for years divisble by 100", function() {
+  it("is false for years divisible by 100", function() {
     expect(leapYear(1900)).to.equal(false);
   });
 });
